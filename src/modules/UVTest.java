@@ -1,4 +1,4 @@
-package modules;
+package src.modules;
 
 import org.testng.annotations.Test;
 
@@ -14,8 +14,5 @@ public class UVTest {
 		System.out.println("I Am From TC 2");
 	}
 
-	@Test
-	public void TC_3() {
-		System.out.println("I Am From TC 3");
-	}
+
 }

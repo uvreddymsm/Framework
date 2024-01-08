@@ -1,4 +1,4 @@
-package modules;
+package src.modules;
 
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
@@ -11,6 +11,8 @@ import com.relevantcodes.extentreports.LogStatus;
 import objectRepository.Locators;
 import utility.GlobalFunctions;
 import utility.ReportManager;
+
+import static src.utility.GlobalObjects.driver;
 
 public class TestExample extends ReportManager{
 	
