@@ -13,4 +13,9 @@ public class UVTest {
 	public void TC_2() {
 		System.out.println("I Am From TC 2");
 	}
+
+	@Test
+	public void TC_3() {
+		System.out.println("I Am From TC 3");
+	}
 }
